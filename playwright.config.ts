@@ -15,17 +15,17 @@ export default defineConfig({
   },
   projects: [
     {
-      name: 'Chromium-Login',
+      name: 'Chromium',
       
       use: { browserName: 'chromium' }
     },
    {
-      name: 'Firefox-Login',
+      name: 'Firefox',
      
       use: { browserName: 'firefox' }
     },
    {
-      name: 'Webkit-Login',
+      name: 'Webkit',
       
       use: { browserName: 'webkit' }
     },

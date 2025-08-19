@@ -2,9 +2,6 @@ import {test,expect} from '@playwright/test'
 import { LoginPage } from '../pages/loginPage';
 import dotenv from "dotenv";
 dotenv.config({quiet:true});
-test('hello',()=>{
-    console.log('Hello, world!');
-})
 test('Login', async ({ page }) => {
     const username = process.env.user_Name!;
     const pass = process.env.user_Password!;
