@@ -22,9 +22,9 @@ This project structure organizes Playwright tests in a clear way: pages/ holds r
    - npx playwright install --with-deps
 
 3. **Set Environment Variables**:
-   BASEURL=https://opensource-demo.orangehrmlive.com/
-   user_Name=Admin
-   user_Password=admin123
+   - BASEURL=https://opensource-demo.orangehrmlive.com/
+   - user_Name=Admin
+   - user_Password=admin123
 
 2. **Run Tests**:
    Execute the Playwright tests using the following command:
